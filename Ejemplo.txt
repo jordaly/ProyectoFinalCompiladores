@@ -1,0 +1,54 @@
+Programa test
+{
+	publica estatica vacia Principal() 
+	{		
+		cadena s1 = "hola";
+		caracter c1 = '3', c2;		
+		entero n1 = 0, n2 = 2, n3 = 2, x;		
+		flotante d1;
+
+		x= "hola";
+				
+		
+		Para(n2 = 0; n2 < 10; n2++ )
+		{
+			Escribir(n2);
+		}
+		
+		Si( n1 >= 0 )
+		{
+			n1 = n3 / n2;
+		} 
+		Sino Si(n1 < 10)
+		{ 
+			n1 = n2 - n3; 
+		}
+		Sino
+		{
+			Escribir("Ninguna opcion");
+		}
+		
+		Hacer
+		{
+			x = x + 1;
+			Escribir(x);
+		}
+		Mientras(x < 5)
+		
+		Mientras(n1 <= 20)
+		{
+			n1++;
+			Escribir(n1);
+		}
+		
+		Alternar(n3)
+		{
+			Caso 3:
+				n1 = 2 + 2;
+			Termina;
+			Predeterminado:
+				n1 = 10;
+			Termina;	
+		}		
+	}
+}
